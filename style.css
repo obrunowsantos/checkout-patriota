@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.frase {
+  background: #006400; /* Verde escuro */
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.frase .livre {
+  color: red;
+  font-weight: bold;
+}
+.frase .justo {
+  color: blue;
+  font-weight: bold;
+}
+.frase .patriota {
+  color: gold;
+  font-weight: bold;
+}
+
+/* Container formulário */
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.linha {
+  display: flex;
+  gap: 15px;
+}
+
+.linha div {
+  flex: 1;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px;
+  background: #006400;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #004d00;
+}
