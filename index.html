@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kit Patriota</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Patriota</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <a href="https://ibb.co/Vcd6Vf3q">
-      <img src="https://i.ibb.co/q3z6BTxr/IMG-1247.jpg" alt="Kit Patriota" border="0">
-    </a>
-    <div class="banner-text">
-      Ao garantir seu kit, você fortalece a luta por um Brasil mais 
-      <span class="livre">livre</span>, 
-      <span class="justo">justo</span> e 
-      <span class="patriota">patriota</span>.
-    </div>
-  </header>
+    <header class="faixa">
+        <p>Ao garantir seu kit, você fortalece a luta por um Brasil mais 
+            <span class="livre">livre</span>, 
+            <span class="justo">justo</span> e 
+            <span class="patriota">patriota</span>.
+        </p>
+    </header>
 
-  <main class="container">
-    <h2>Endereço</h2>
-    <form onsubmit="window.location.href='https://go.paradisepagbr.com/csfghjlwsl'; return false;">
-      <label for="cep">CEP</label>
-      <input type="text" id="cep" placeholder="00000-000" required>
+    <main>
+        <section class="form-container">
+            <h2>Endereço</h2>
+            <form id="enderecoForm">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" placeholder="00000-000" required>
 
-      <label for="rua">Rua</label>
-      <input type="text" id="rua" placeholder="Av. Brasil" required>
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" placeholder="Av. Brasil" required>
 
-      <div class="row">
-        <div>
-          <label for="numero">Número</label>
-          <input type="text" id="numero" placeholder="123" required>
-        </div>
-        <div>
-          <label for="complemento">Complemento</label>
-          <input type="text" id="complemento" placeholder="Apto, Bloco, Casa...">
-        </div>
-      </div>
+                <div class="dupla">
+                    <div>
+                        <label for="numero">Número</label>
+                        <input type="text" id="numero" placeholder="123" required>
+                    </div>
+                    <div>
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" placeholder="Apto, Bloco, Casa...">
+                    </div>
+                </div>
 
-      <label for="bairro">Bairro</label>
-      <input type="text" id="bairro" placeholder="Centro" required>
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" placeholder="Centro" required>
 
-      <div class="row">
-        <div>
-          <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" placeholder="São Paulo" required>
-        </div>
-        <div>
-          <label for="estado">Estado</label>
-          <input type="text" id="estado" placeholder="SP" required>
-        </div>
-      </div>
+                <div class="dupla">
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" placeholder="São Paulo" required>
+                    </div>
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" placeholder="SP" required>
+                    </div>
+                </div>
 
-      <button type="submit">CONTINUAR ➝</button>
-    </form>
-  </main>
+                <button type="submit">CONTINUAR ➝</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
